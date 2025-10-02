@@ -16,6 +16,8 @@
 
 
 ⚡ Module Block example is stored in "module_example.tf"
+
+
 ⚡ The Instane ID of the created EC2 instance is stored as a variable for use in other resources.
 
 
