@@ -1,9 +1,5 @@
 #Custom Module for EC2 creation
 
-provider "aws" {
-  region = "us-east-1"
-}
-
 resource "aws_instance" "custom_module"{
     ami = "ami-0e3c2921641a4a215"
     instance_type = "t3.micro"
@@ -14,4 +10,4 @@ resource "aws_instance" "custom_module"{
     }
 
     }
-  
+
